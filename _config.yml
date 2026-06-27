@@ -1,0 +1,25 @@
+# Configurações do GitHub Pages (Jekyll)
+title: Preensadão da XV
+description: O hotdog prensado mais famoso de Guarapuava
+theme: jekyll-theme-cayman
+url: "https://igorfuchs2010-lgtm.github.io"
+baseurl: "/preensadao"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 3
+
+# Excluir do build
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+
+# Plugins
+plugins:
+  - jekyll-seo-tag

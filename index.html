@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preensadão da XV - O hotdog prensado mais famoso de Guarapuava. Tradição, sabor e qualidade na Rua XV de Novembro.">
+    <meta name="keywords" content="hotdog prensado, Guarapuava, Rua XV, lanche, Preensadão, delivery">
+    <meta name="theme-color" content="#E63946">
+    <title>Preensadão da XV | O Hotdog Mais Famoso de Guarapuava</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Preensadão da XV - O Hotdog Mais Famoso de Guarapuava">
+    <meta property="og:description" content="Sabor que virou tradição na Rua XV de Novembro. Peça já o seu!">
+    <meta property="og:type" content="restaurant">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ===== NAVEGAÇÃO ===== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-icon">🌭</span>
+                <span>Preensadão <em>da XV</em></span>
+            </a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#cardapio" class="nav-link">Cardápio</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#promocoes" class="nav-link">Promoções</a></li>
+                <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                <li><a href="#localizacao" class="nav-link">Localização</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/5542999999999?text=Olá! Gostaria de fazer um pedido" target="_blank" class="btn btn-whatsapp-nav" aria-label="Pedir pelo WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Peça já</span>
+                </a>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== HERO / PÁGINA INICIAL ===== -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-pattern"></div>
+
+        <div class="container hero-content">
+            <span class="hero-badge">🔥 Desde 1998 servindo o melhor de Guarapuava</span>
+
+            <h1 class="hero-title">
+                Preensadão <span class="title-highlight">da XV</span>
+            </h1>
+
+            <p class="hero-slogan">
+                <span class="slogan-quote">"</span>O hotdog mais famoso de Guarapuava<span class="slogan-quote">"</span>
+            </p>
+
+            <p class="hero-description">
+                Sabor que virou tradição na Rua XV de Novembro. Pão fresquinho, recheio generoso
+                e aquela prensada que faz toda a diferença. Venha provar o autêntico!
+            </p>
+
+            <div class="hero-cta">
+                <a href="https://wa.me/5542999999999?text=Olá! Gostaria de fazer um pedido" target="_blank" class="btn btn-primary btn-lg">
+                    <i class="fab fa-whatsapp"></i> Peça Agora
+                </a>
+                <a href="#cardapio" class="btn btn-outline btn-lg">
+                    <i class="fas fa-utensils"></i> Ver Cardápio
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat">
+                    <strong>25+</strong>
+                    <span>Anos de tradição</span>
+                </div>
+                <div class="stat">
+                    <strong>50k+</strong>
+                    <span>Clientes felizes</span>
+                </div>
+                <div class="stat">
+                    <strong>4.9★</strong>
+                    <span>Avaliação média</span>
+                </div>
+            </div>
+
+            <div class="hero-hotdog">
+                <div class="hotdog-emoji">🌭</div>
+            </div>
+        </div>
+
+        <a href="#cardapio" class="hero-scroll" aria-label="Rolar para baixo">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- ===== CARDÁPIO ===== -->
+    <section class="section cardapio" id="cardapio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">🍔 Nosso Cardápio</span>
+                <h2 class="section-title">Hotdogs <span class="text-primary">Prensados</span> que vão te conquistar</h2>
+                <p class="section-subtitle">Pão macio, recheio generoso e aquela prensada que você já conhece</p>
+            </div>
+
+            <div class="cardapio-filters">
+                <button class="filter-btn active" data-filter="all">
+                    <i class="fas fa-th"></i> Todos
+                </button>
+                <button class="filter-btn" data-filter="tradicional">
+                    <i class="fas fa-star"></i> Tradicionais
+                </button>
+                <button class="filter-btn" data-filter="especial">
+                    <i class="fas fa-fire"></i> Especiais
+                </button>
+                <button class="filter-btn" data-filter="combo">
+                    <i class="fas fa-gift"></i> Combos
+                </button>
+                <button class="filter-btn" data-filter="extras">
+                    <i class="fas fa-plus-circle"></i> Extras
+                </button>
+            </div>
+
+            <div class="cardapio-grid" id="cardapio-grid">
+
+                <!-- Tradicionais -->
+                <article class="menu-card" data-category="tradicional">
+                    <div class="menu-card-image" style="background: linear-gradient(135deg, #E63946, #FF6B35);">
+                        <span class="menu-emoji">🌭</span>
+                        <span class="menu-badge">Clássico</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Preensadão Tradicional</h3>
+                        <p>Salsicha, batata palha, milho, ervilha, queijo, presunto, ovo e molho da casa.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-price">R$ 18,90</span>
+                            <a href="https://wa.me/5542999999999?text=Quero pedir: Preensadão Tradicional" target="_blank" class="btn btn-sm btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Pedir
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="tradicional">
+                    <div class="menu-card-image" style="background: linear-gradient(135deg, #F77F00, #FCBF49);">
+                        <span class="menu-emoji">🌭</span>
+                        <span class="menu-badge">Popular</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Preensadão Simples</h3>
+                        <p>Salsicha, batata palha, milho, ervilha, queijo e molho especial da casa.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-price">R$ 14,90</span>
+                            <a href="https://wa.me/5542999999999?text=Quero pedir: Preensadão Simples" target="_blank" class="btn btn-sm btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Pedir
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Especiais -->
+                <article class="menu-card" data-category="especial">
+                    <div class="menu-card-image" style="background: linear-gradient(135deg, #D62828, #F77F00);">
+                        <span class="menu-emoji">🔥</span>
+                        <span class="menu-badge badge-fire">Mais Pedido</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Preensadão da Casa</h3>
+                        <p>2 salsichas, dupla de queijo, bacon crocante, ovo, milho, batata palha e molho secreto.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-price">R$ 24,90</span>
+                            <a href="https://wa.me/5542999999999?text=Quero pedir: Preensadão da Casa" target="_blank" class="btn btn-sm btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Pedir
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="especial">
+                    <div class="menu-card-image" style="background: linear-gradient(135deg, #6A040F, #E63946);">
+                        <span class="menu-emoji">🥓</span>
+                        <span class="menu-badge badge-fire">Premium</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Preensadão Bacon Lover</h3>
+                        <p>Bacon generoso, cheddar, cebola caramelizada, salsicha, ovo e molho barbecue.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-price">R$ 26,90</span>
+                            <a href="https://wa.me/5542999999999?text=Quero pedir: Preensadão Bacon Lover" target="_blank" class="btn btn-sm btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Pedir
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="especial">
+                    <div class="menu-card-image" style="background: linear-gradient(135deg, #FFB703, #FB8500);">
+                        <span class="menu-emoji">🧀</span>
+                        <span class="menu-badge">Especial</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Preensadão Cheddar Duplo</h3>
+                        <p>Salsicha, cheddar duplo derretido, bacon, batata palha e cebola crispy.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-price">R$ 22,90</span>
+                            <a href="https://wa.me/5542999999999?text=Quero pedir: Preensadão Cheddar Duplo" target="_blank" class="btn btn-sm btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Pedir
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="especial">
+                    <div class="menu-card-image" style="background: linear-gradient(135deg, #2A9D8F, #E9C46A);">
+                        <span class="menu-emoji">🥗</span>
+                        <span class="menu-badge">Fit</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Preensadão Frango</h3>
+                        <p>Frango desfiado, catupiry, milho, batata palha e molho verde da casa.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-price">R$ 21,90</span>
+                            <a href="https://wa.me/5542999999999?text=Quero pedir: Preensadão Frango" target="_blank" class="btn btn-sm btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Pedir
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Combos -->
+                <article class="menu-card combo" data-category="combo">
+                    <div class="menu-card-image" style="background: linear-gradient(135deg, #E63946, #FCBF49);">
+                        <span class="menu-emoji">🎉</span>
+                        <span class="menu-badge badge-combo">Economia</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Combo Casal</h3>
+                        <p>2 Preensadões Tradicionais + 2 Refrigerantes lata + Batata grande.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-price">R$ 49,90</span>
+                            <span class="menu-old-price">R$ 59,80</span>
+                            <a href="https://wa.me/5542999999999?text=Quero pedir: Combo Casal" target="_blank" class="btn btn-sm btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Pedir
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card combo" data-category="combo">
+                    <div class="menu-card-image" style="background: linear-gradient(135deg, #F77F00, #FFB703);">
+                        <span class="menu-emoji">👨‍👩‍👧</span>
+                        <span class="menu-badge badge-combo">Família</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Combo Família</h3>
+                        <p>4 Preensadões à sua escolha + 4 Refrigerantes 350ml + Porção batata grande.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-price">R$ 89,90</span>
+                            <span class="menu-old-price">R$ 110,00</span>
+                            <a href="https://wa.me/5542999999999?text=Quero pedir: Combo Família" target="_blank" class="btn btn-sm btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Pedir
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Extras -->
+                <article class="menu-card" data-category="extras">
+                    <div class="menu-card-image" style="background: linear-gradient(135deg, #FCBF49, #F77F00);">
+                        <span class="menu-emoji">🍟</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Porção de Batata Frita</h3>
+                        <p>Batata frita crocante por fora e macia por dentro. Tamanho grande.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-price">R$ 18,90</span>
+                            <a href="https://wa.me/5542999999999?text=Quero pedir: Porção de Batata Frita" target="_blank" class="btn btn-sm btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Pedir
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="extras">
+                    <div class="menu-card-image" style="background: linear-gradient(135deg, #4895EF, #560BAD);">
+                        <span class="menu-emoji">🥤</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Refrigerante Lata</h3>
+                        <p>Coca-Cola, Guaraná Antarctica, Fanta Laranja ou Uva. 350ml gelado.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-price">R$ 6,50</span>
+                            <a href="https://wa.me/5542999999999?text=Quero pedir: Refrigerante Lata" target="_blank" class="btn btn-sm btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Pedir
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="extras">
+                    <div class="menu-card-image" style="background: linear-gradient(135deg, #FF006E, #8338EC);">
+                        <span class="menu-emoji">🧃</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Suco Natural</h3>
+                        <p>Laranja, abacaxi com hortelã, maracujá ou limão. 500ml.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-price">R$ 8,90</span>
+                            <a href="https://wa.me/5542999999999?text=Quero pedir: Suco Natural" target="_blank" class="btn btn-sm btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Pedir
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="extras">
+                    <div class="menu-card-image" style="background: linear-gradient(135deg, #06A77D, #2A9D8F);">
+                        <span class="menu-emoji">🥤</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Milkshake 500ml</h3>
+                        <p>Chocolate, morango, ovomaltine ou paçoca. Cremoso e irresistível.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-price">R$ 14,90</span>
+                            <a href="https://wa.me/5542999999999?text=Quero pedir: Milkshake" target="_blank" class="btn btn-sm btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Pedir
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SOBRE NÓS ===== -->
+    <section class="section sobre" id="sobre">
+        <div class="container sobre-grid">
+            <div class="sobre-image">
+                <div class="sobre-image-wrapper">
+                    <div class="sobre-img-main">
+                        <span>🌭</span>
+                    </div>
+                    <div class="sobre-img-deco">
+                        <span>👨‍🍳</span>
+                    </div>
+                    <div class="sobre-img-badge">
+                        <strong>25+</strong>
+                        <span>anos</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sobre-content">
+                <span class="section-tag">👨‍🍳 Sobre Nós</span>
+                <h2 class="section-title">Tradição, sabor e muito <span class="text-primary">amor</span> em cada mordida</h2>
+
+                <p class="sobre-text">
+                    Há mais de <strong>25 anos</strong>, o Preensadão da XV é referência em hotdog prensado
+                    em Guarapuava. O que começou como uma pequena lanchonete na Rua XV de Novembro
+                    virou uma verdadeira paixão dos guarapuavanos.
+                </p>
+
+                <p class="sobre-text">
+                    Nossa receita é simples: ingredientes selecionados, pão fresquinho, recheio generoso
+                    e aquela <strong>prensada especial</strong> que deixa tudo mais saboroso e derretido.
+                    Cada Preensadão é preparado na hora, com o carinho e a dedicação de quem ama
+                    o que faz.
+                </p>
+
+                <div class="sobre-features">
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Ingredientes Frescos</h4>
+                            <p>Selecionados todos os dias</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Receita Tradicional</h4>
+                            <p>25 anos de sabor inconfundível</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Feito na Hora</h4>
+                            <p>Cada lanche preparado com carinho</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Delivery Rápido</h4>
+                            <p>Entregamos quentinho na sua casa</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/5542999999999?text=Olá! Gostaria de saber mais sobre o Preensadão" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-whatsapp"></i> Fale Conosco
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROMOÇÕES ===== -->
+    <section class="section promocoes" id="promocoes">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">🔥 Promoções da Semana</span>
+                <h2 class="section-title">Ofertas <span class="text-primary">imperdíveis</span> pra você</h2>
+                <p class="section-subtitle">Aproveite descontos especiais por tempo limitado</p>
+            </div>
+
+            <div class="promocoes-grid">
+                <div class="promo-card promo-destaque">
+                    <span class="promo-tag">⭐ Destaque</span>
+                    <div class="promo-emoji">🌭</div>
+                    <h3>Segunda do Bacon</h3>
+                    <p>Bacon Lover com batata grande por um preço especial</p>
+                    <div class="promo-price">
+                        <span class="promo-old">R$ 26,90</span>
+                        <span class="promo-new">R$ 19,90</span>
+                    </div>
+                    <a href="https://wa.me/5542999999999?text=Quero aproveitar: Segunda do Bacon" target="_blank" class="btn btn-light">Aproveitar</a>
+                </div>
+
+                <div class="promo-card">
+                    <span class="promo-tag">Quarta & Quinta</span>
+                    <div class="promo-emoji">🎉</div>
+                    <h3>Combo Casal</h3>
+                    <p>2 Preensadões Tradicionais + 2 refris + batata grande</p>
+                    <div class="promo-price">
+                        <span class="promo-old">R$ 59,80</span>
+                        <span class="promo-new">R$ 39,90</span>
+                    </div>
+                    <a href="https://wa.me/5542999999999?text=Quero aproveitar: Combo Casal" target="_blank" class="btn btn-light">Aproveitar</a>
+                </div>
+
+                <div class="promo-card">
+                    <span class="promo-tag">Sexta-Feira</span>
+                    <div class="promo-emoji">🥤</div>
+                    <h3>Milkshake Grátis</h3>
+                    <p>Pedido acima de R$ 50 ganha um milkshake grátis</p>
+                    <div class="promo-price">
+                        <span class="promo-new">GRÁTIS</span>
+                    </div>
+                    <a href="https://wa.me/5542999999999?text=Quero aproveitar: Milkshake Grátis" target="_blank" class="btn btn-light">Aproveitar</a>
+                </div>
+
+                <div class="promo-card">
+                    <span class="promo-tag">Sábado</span>
+                    <div class="promo-emoji">👨‍👩‍👧</div>
+                    <h3>Combo Família</h3>
+                    <p>4 Preensadões + 4 refris + batata grande</p>
+                    <div class="promo-price">
+                        <span class="promo-old">R$ 110,00</span>
+                        <span class="promo-new">R$ 79,90</span>
+                    </div>
+                    <a href="https://wa.me/5542999999999?text=Quero aproveitar: Combo Família" target="_blank" class="btn btn-light">Aproveitar</a>
+                </div>
+
+                <div class="promo-card">
+                    <span class="promo-tag">Domingo</span>
+                    <div class="promo-emoji">🍟</div>
+                    <h3>Batata Grátis</h3>
+                    <p>Na compra de qualquer Preensadão Especial</p>
+                    <div class="promo-price">
+                        <span class="promo-new">BRINDE</span>
+                    </div>
+                    <a href="https://wa.me/5542999999999?text=Quero aproveitar: Batata Grátis" target="_blank" class="btn btn-light">Aproveitar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section class="section depoimentos" id="depoimentos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">💬 Depoimentos</span>
+                <h2 class="section-title">O que dizem nossos <span class="text-primary">clientes</span></h2>
+                <p class="section-subtitle">Mais de 50 mil clientes satisfeitos não mentem!</p>
+            </div>
+
+            <div class="depoimentos-grid">
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">★★★★★</div>
+                    <p class="depoimento-text">"Melhor hotdog prensado de Guarapuava, sem dúvidas! Vou lá há anos e nunca decepciona. Atendimento nota 10!"</p>
+                    <div class="depoimento-author">
+                        <div class="avatar">MS</div>
+                        <div>
+                            <strong>Marcos Silva</strong>
+                            <span>Cliente desde 2015</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">★★★★★</div>
+                    <p class="depoimento-text">"Sou fã do Preensadão da XV! O cheddar duplo é simplesmente maravilhoso. Toda sexta a família pede!"</p>
+                    <div class="depoimento-author">
+                        <div class="avatar">AP</div>
+                        <div>
+                            <strong>Ana Paula</strong>
+                            <span>Cliente desde 2018</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">★★★★★</div>
+                    <p class="depoimento-text">"Atendimento excelente, entrega rápida e lanche quentinho. Preensadão da Casa é meu favorito, recomendo demais!"</p>
+                    <div class="depoimento-author">
+                        <div class="avatar">JL</div>
+                        <div>
+                            <strong>João Lima</strong>
+                            <span>Cliente desde 2020</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">★★★★★</div>
+                    <p class="depoimento-text">"Tradição de Guarapuava! Cresci comendo preensadão e continuo amando. Preço justo e sabor incomparável."</p>
+                    <div class="depoimento-author">
+                        <div class="avatar">CR</div>
+                        <div>
+                            <strong>Carla Ribeiro</strong>
+                            <span>Cliente desde 2010</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">★★★★★</div>
+                    <p class="depoimento-text">"O Bacon Lover é de outro mundo! Vale cada centavo. Atendimento sempre simpático, ambiente agradável."</p>
+                    <div class="depoimento-author">
+                        <div class="avatar">RF</div>
+                        <div>
+                            <strong>Rafael Ferreira</strong>
+                            <span>Cliente desde 2019</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">★★★★★</div>
+                    <p class="depoimento-text">"Melhor custo-benefício da cidade. Combo família é perfeito! Toda semana lá em casa tem Preensadão."</p>
+                    <div class="depoimento-author">
+                        <div class="avatar">FB</div>
+                        <div>
+                            <strong>Fernanda Borges</strong>
+                            <span>Cliente desde 2017</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LOCALIZAÇÃO ===== -->
+    <section class="section localizacao" id="localizacao">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">📍 Onde Estamos</span>
+                <h2 class="section-title">Venha nos <span class="text-primary">visitar</span></h2>
+                <p class="section-subtitle">Estamos no coração da Rua XV de Novembro</p>
+            </div>
+
+            <div class="localizacao-grid">
+                <div class="localizacao-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Endereço</h3>
+                        <p>Rua XV de Novembro, 1234<br>Centro, Guarapuava - PR<br>CEP: 85010-000</p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Horário de Funcionamento</h3>
+                        <ul class="horario-list">
+                            <li><span>Segunda a Quinta</span><strong>18:00 - 23:00</strong></li>
+                            <li><span>Sexta e Sábado</span><strong>18:00 - 00:00</strong></li>
+                            <li><span>Domingo</span><strong>18:00 - 22:00</strong></li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>Telefone</h3>
+                        <p>(42) 99999-9999<br>(42) 3333-3333</p>
+                    </div>
+
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=Rua+XV+de+Novembro+1234+Guarapuava+PR" target="_blank" class="btn btn-primary btn-lg btn-block">
+                        <i class="fas fa-directions"></i> Como Chegar
+                    </a>
+                </div>
+
+                <div class="localizacao-map">
+                    <iframe
+                        src="https://www.google.com/maps?q=Rua+XV+de+Novembro,+Guarapuava,+PR&output=embed"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Mapa do Preensadão da XV">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section class="section contato" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">📞 Fale Conosco</span>
+                <h2 class="section-title">Entre em <span class="text-primary">contato</span></h2>
+                <p class="section-subtitle">Estamos prontos para atender você</p>
+            </div>
+
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <h3>Vamos conversar?</h3>
+                    <p>Tem alguma dúvida, sugestão ou quer fazer um pedido? Entre em contato conosco por um dos canais abaixo.</p>
+
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <p>(42) 99999-9999</p>
+                            <a href="https://wa.me/5542999999999" target="_blank">Enviar mensagem →</a>
+                        </div>
+                    </div>
+
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <strong>Telefone</strong>
+                            <p>(42) 3333-3333</p>
+                            <a href="tel:+554233333333">Ligar agora →</a>
+                        </div>
+                    </div>
+
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <strong>E-mail</strong>
+                            <p>contato@preensadaodaxv.com.br</p>
+                            <a href="mailto:contato@preensadaodaxv.com.br">Enviar e-mail →</a>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://instagram.com/preensadaodaxv" target="_blank" aria-label="Instagram" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com/preensadaodaxv" target="_blank" aria-label="Facebook" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://tiktok.com/@preensadaodaxv" target="_blank" aria-label="TikTok" class="social-link">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://wa.me/5542999999999" target="_blank" aria-label="WhatsApp" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contato-form" id="contato-form">
+                    <h3>Envie sua mensagem</h3>
+
+                    <div class="form-group">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(42) 99999-9999">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione um assunto</option>
+                            <option value="pedido">Quero fazer um pedido</option>
+                            <option value="duvida">Dúvida sobre o cardápio</option>
+                            <option value="entrega">Informações sobre entrega</option>
+                            <option value="sugestao">Sugestão ou elogio</option>
+                            <option value="outro">Outro assunto</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                    </button>
+
+                    <div class="form-message" id="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA FINAL ===== -->
+    <section class="cta-final">
+        <div class="container">
+            <div class="cta-content">
+                <span class="cta-emoji">🌭</span>
+                <h2>Tá esperando o quê?</h2>
+                <p>Peça agora o melhor hotdog prensado de Guarapuava e receba quentinho na sua casa!</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/5542999999999?text=Olá! Gostaria de fazer um pedido agora" target="_blank" class="btn btn-whatsapp btn-xl">
+                        <i class="fab fa-whatsapp"></i> Peça pelo WhatsApp
+                    </a>
+                    <a href="tel:+5542999999999" class="btn btn-light btn-xl">
+                        <i class="fas fa-phone-alt"></i> (42) 99999-9999
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#home" class="footer-logo">
+                        <span class="logo-icon">🌭</span>
+                        <span>Preensadão <em>da XV</em></span>
+                    </a>
+                    <p>O hotdog prensado mais famoso de Guarapuava. Tradição e sabor desde 1998 na Rua XV de Novembro.</p>
+
+                    <div class="footer-social">
+                        <a href="https://instagram.com/preensadaodaxv" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/preensadaodaxv" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://tiktok.com/@preensadaodaxv" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/5542999999999" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#cardapio">Cardápio</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#promocoes">Promoções</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Rua XV de Novembro, 1234</li>
+                        <li><i class="fas fa-phone-alt"></i> (42) 99999-9999</li>
+                        <li><i class="fas fa-envelope"></i> contato@preensadaodaxv.com.br</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Horário</h4>
+                    <ul>
+                        <li>Seg a Qui: 18h - 23h</li>
+                        <li>Sex e Sáb: 18h - 00h</li>
+                        <li>Dom: 18h - 22h</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 <strong>Preensadão da XV</strong>. Todos os direitos reservados.</p>
+                <p>Feito com <i class="fas fa-heart" style="color:#E63946;"></i> em Guarapuava - PR</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão flutuante WhatsApp -->
+    <a href="https://wa.me/5542999999999?text=Olá! Gostaria de fazer um pedido" target="_blank" class="whatsapp-float" aria-label="Pedir pelo WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="pulse"></span>
+    </a>
+
+    <!-- Botão voltar ao topo -->
+    <button class="back-to-top" id="back-to-top" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
