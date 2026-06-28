@@ -1,51 +1,47 @@
-# 🌭 Preensadão da XV - Site Oficial
+# 🌭 Cachorrão Prensado - Site Oficial
 
-Site moderno, responsivo e atrativo para o **Preensadão da Rua XV de Novembro** em Guarapuava - PR, especializado em hotdogs prensados.
+Site moderno, responsivo e atrativo para o **Cachorrão Prensado**, tradicional cachorro-quente prensado localizado na Rua XV de Novembro em Guarapuava - PR.
 
 ## 📋 Sobre o Projeto
 
-Este é um site institucional completo com todas as funcionalidades necessárias para divulgar o Preensadão da XV e facilitar pedidos online via WhatsApp.
+Este é um site institucional completo com todas as funcionalidades necessárias para divulgar o Cachorrão Prensado e facilitar pedidos online via WhatsApp.
 
 ## ✨ Funcionalidades
 
 ### 🏠 Página Inicial
 - Hero impactante com gradiente animado
-- Slogan destacado: *"O hotdog mais famoso de Guarapuava"*
-- Estatísticas (25+ anos, 50k+ clientes, 4.9★)
+- Slogan destacado: *"O cachorro-quente prensado tradicional de Guarapuava"*
 - Botão de pedido rápido para WhatsApp
 - Animações suaves e elementos flutuantes
 
 ### 🍔 Cardápio Completo
 - **Filtros por categoria**: Tradicionais, Especiais, Combos, Extras
-- **12 itens** detalhados com descrições e preços
+- **10+ itens** detalhados com descrições e preços
 - Botão de pedido individual por item
 - Cards animados com efeitos hover
-- Badges de destaque (Mais Pedido, Premium, Popular)
 
 **Itens do Cardápio:**
-- Preensadão Tradicional - R$ 18,90
-- Preensadão Simples - R$ 14,90
-- Preensadão da Casa (🔥 Mais Pedido) - R$ 24,90
-- Preensadão Bacon Lover (🥓 Premium) - R$ 26,90
-- Preensadão Cheddar Duplo - R$ 22,90
-- Preensadão Frango - R$ 21,90
-- Combo Casal - R$ 49,90
-- Combo Família - R$ 89,90
-- Porção de Batata - R$ 18,90
-- Refrigerante Lata - R$ 6,50
-- Suco Natural - R$ 8,90
-- Milkshake 500ml - R$ 14,90
+- Cachorrão Completo - R$ 18,90
+- Cachorrão Simples - R$ 14,90
+- Cachorrão Duplo - R$ 22,90
+- Cachorrão Bacon - R$ 22,90
+- Cachorrão Cheddar - R$ 23,90
+- Cachorrão Ovo - R$ 19,90
+- Combo Casal - R$ 44,90
+- Combo Família - R$ 79,90
+- Porção de Batata Frita - R$ 16,90
+- Refrigerante Lata - R$ 6,00
 
 ### 👨‍🍳 Sobre Nós
-- História da empresa (25+ anos de tradição)
+- História e tradição na Rua XV de Novembro
 - Cards de diferenciais (Ingredientes Frescos, Receita Tradicional, Feito na Hora, Delivery Rápido)
 
 ### 🔥 Promoções Semanais
-- Segunda do Bacon (-30%)
-- Combo Casal especial Quarta/Quinta
-- Milkshake grátis na Sexta (pedidos +R$50)
-- Combo Família no Sábado (-27%)
-- Batata grátis no Domingo
+- Destaque: Cachorrão Duplo + Refri
+- Combo Casal (Terça/Quarta)
+- Sexta do Bacon
+- Combo Família no Sábado
+- Domingo em Família (brinde batata)
 
 ### 💬 Depoimentos
 - 6 depoimentos de clientes reais
@@ -53,8 +49,8 @@ Este é um site institucional completo com todas as funcionalidades necessárias
 - Avatares personalizados
 
 ### 📍 Localização
-- Mapa interativo do Google Maps (Rua XV de Novembro)
-- Informações de endereço
+- Mapa interativo do Google Maps (coordenadas reais: -25.3902434, -51.4625697)
+- Rua XV de Novembro, Centro, Guarapuava - PR
 - Horário completo de funcionamento
 - Botão "Como Chegar"
 
@@ -73,7 +69,7 @@ Este é um site institucional completo com todas as funcionalidades necessárias
 
 - **Paleta de cores quentes**: Vermelho (#E63946), Laranja (#F77F00), Amarelo (#FCBF49)
 - **Tipografia**: Bebas Neue (títulos), Pacifico (destaques), Poppins (corpo)
-- **Estilo**: Jovem, vibrante e descontraído
+- **Estilo**: Jovem, vibrante e acolhedor
 - **Animações**: Suaves e modernas (parallax, fade-in, hover effects)
 
 ## 📱 Responsividade
@@ -102,47 +98,48 @@ python -m http.server 8000
 npx serve
 ```
 
-**Com PHP:**
-```bash
-php -S localhost:8000
-```
+## 🌐 Site no Ar
 
-**Com VS Code:**
-Instale a extensão "Live Server" e clique em "Go Live" no canto inferior direito.
+O site está disponível online no GitHub Pages:
+
+👉 **https://igorfuchs2010-lgtm.github.io/preensadao-hotdog-web/**
 
 ## 📁 Estrutura de Arquivos
 
 ```
 preensadao/
-├── index.html      # Estrutura HTML completa
-├── styles.css      # Todos os estilos e responsividade
-├── script.js       # Interatividade e animações
-└── README.md       # Este arquivo
+├── index.html              # Estrutura HTML completa
+├── styles.css              # Todos os estilos e responsividade
+├── script.js               # Interatividade e animações
+├── README.md               # Este arquivo
+├── .gitignore              # Arquivos ignorados pelo Git
+└── .github/workflows/      # Deploy automático
+    └── deploy.yml
 ```
 
 ## ⚙️ Personalizações Necessárias
 
-Antes de colocar no ar, você precisa ajustar:
+Antes de colocar em produção, você precisa ajustar:
 
 ### 📞 Telefone/WhatsApp
-Substitua `5542999999999` pelo número real em **todos os arquivos** (`index.html`):
+Substitua `5542999999999` pelo número real em **todos os arquivos**:
 ```bash
 # Buscar todas as ocorrências:
 5542999999999
 # Substituir por: SEU_NUMERO_AQUI
 ```
 
-### 📍 Endereço Exato
-No `index.html`, ajuste o endereço na seção Localização e no iframe do Google Maps.
+### 📍 Endereço
+A localização já está configurada com as coordenadas reais do Google Maps. Ajuste o número/endereço específico se necessário.
 
 ### 🕐 Horário de Funcionamento
 Atualize os horários em `index.html` conforme real funcionamento.
 
 ### 📱 Redes Sociais
-Atualize os links de Instagram, Facebook e TikTok:
+Atualize os links em `index.html`:
 ```html
-<a href="https://instagram.com/SEU_PERFIL" ...>
-<a href="https://facebook.com/SEU_PERFIL" ...>
+<a href="https://instagram.com/cachorraoprensado" ...>
+<a href="https://facebook.com/cachorraoprensado" ...>
 ```
 
 ### 💰 Preços e Itens
@@ -150,21 +147,13 @@ Edite os preços e descrições dos itens no `index.html` (seção cardápio).
 
 ## 🌐 Publicação Online
 
-### Opções Gratuitas
-- **GitHub Pages**: Hospedagem gratuita com domínio `seuuser.github.io`
-- **Netlify**: Deploy contínuo com drag-and-drop
-- **Vercel**: Rápido e gratuito
-- **Cloudflare Pages**: CDN global gratuito
-
-### Domínio Próprio
-Sugestões de domínio:
-- `preensadaodaxv.com.br`
-- `preensadaoxv.com.br`
-- `hotdogxv.com.br`
+Este site está publicado via **GitHub Pages** com deploy automático:
+- Cada commit é automaticamente publicado em ~1 minuto
+- Domínio: `igorfuchs2010-lgtm.github.io/preensadao-hotdog-web`
 
 ## 🎁 Easter Egg 🥚
 
-Clique 5 vezes no logo do Preensadão para ativar uma chuva de emojis de lanches! 🌭🍔🍟
+Clique 5 vezes no logo do Cachorrão Prensado para ativar uma chuva de emojis de lanches! 🌭🍔🍟
 
 ## 📊 Compatibilidade
 
@@ -183,13 +172,10 @@ Clique 5 vezes no logo do Preensadão para ativar uma chuva de emojis de lanches
 - Intersection Observer API (animações)
 - Scroll suave nativo
 - SEO otimizado (meta tags)
-
-## 📞 Contato de Desenvolvimento
-
-Para dúvidas sobre o site, entre em contato com o desenvolvedor.
+- GitHub Actions (deploy automático)
 
 ---
 
 **Feito com 💛 em Guarapuava - PR**
 
-*"O hotdog mais famoso de Guarapuava"* 🌭
+*"O cachorro-quente prensado tradicional de Guarapuava"* 🌭

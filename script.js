@@ -400,8 +400,8 @@ document.addEventListener('DOMContentLoaded', () => {
     /* ============================================
        LOG DE INICIALIZAÇÃO
        ============================================ */
-    console.log('%c🌭 Preensadão da XV 🌭', 'color: #E63946; font-size: 24px; font-weight: bold;');
-    console.log('%cO hotdog mais famoso de Guarapuava!', 'color: #F77F00; font-size: 14px;');
+    console.log('%c🌭 Cachorrão Prensado 🌭', 'color: #E63946; font-size: 24px; font-weight: bold;');
+    console.log('%cO cachorro-quente prensado tradicional de Guarapuava!', 'color: #F77F00; font-size: 14px;');
     console.log('%c📍 Rua XV de Novembro, Guarapuava - PR', 'color: #6C757D; font-size: 12px;');
 
 });
