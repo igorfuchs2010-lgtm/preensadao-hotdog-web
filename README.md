@@ -47,7 +47,7 @@ Este é um site institucional completo com todas as funcionalidades necessárias
 - Domingo em Família (brinde batata)
 
 ### 💬 Depoimentos
-- 6 depoimentos inspirados em avaliações reais (RestaurantGuru, Google)
+- 6 depoimentos REAIS (Google + RestaurantGuru) com fotos reais do estabelecimento
 - Sistema de 5 estrelas
 - Botão direto para ver todas as avaliações no Google
 
@@ -115,6 +115,8 @@ preensadao/
 ├── script.js               # Interatividade e animações
 ├── README.md               # Este arquivo
 ├── .gitignore              # Arquivos ignorados pelo Git
+├── assets/
+│   └── photos/             # Fotos reais do estabelecimento (RestaurantGuru)
 └── .github/workflows/      # Deploy automático
     └── deploy.yml
 ```
