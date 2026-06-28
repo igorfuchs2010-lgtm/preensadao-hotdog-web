@@ -1,6 +1,14 @@
 # 🌭 Cachorrão Prensado - Site Oficial
 
-Site moderno, responsivo e atrativo para o **Cachorrão Prensado**, tradicional cachorro-quente prensado localizado na Rua XV de Novembro em Guarapuava - PR.
+Site moderno, responsivo e atrativo para o **Cachorrão Prensado**, tradicional cachorro-quente prensado no centro de Guarapuava - PR, pertinho da Praça Clève.
+
+## 📍 Informações do Estabelecimento
+
+- **Endereço:** Rua XV de Novembro, 6968 - Centro, Guarapuava - PR (CEP 85010-000)
+- **Telefone / WhatsApp:** (42) 3623-1368
+- **Horário:** Todos os dias, das 18h às 23h
+- **Instagram:** [@cachorraoprensadoxv_](https://www.instagram.com/cachorraoprensadoxv_/)
+- **Google Maps:** [Cachorrão Prensado](https://www.google.com/maps/place/Cachorr%C3%A3o+Prensado/@-25.3902434,-51.4625697,17z) — 4.4★ (348+ avaliações)
 
 ## 📋 Sobre o Projeto
 
@@ -10,55 +18,49 @@ Este é um site institucional completo com todas as funcionalidades necessárias
 
 ### 🏠 Página Inicial
 - Hero impactante com gradiente animado
-- Slogan destacado: *"O cachorro-quente prensado tradicional de Guarapuava"*
-- Botão de pedido rápido para WhatsApp
-- Animações suaves e elementos flutuantes
+- Endereço em destaque (Rua XV de Novembro, 6968)
+- Botões de pedido rápido (WhatsApp) e rota (Google Maps)
+- Estatísticas reais: 4.4★ no Google, 348+ avaliações
 
 ### 🍔 Cardápio Completo
-- **Filtros por categoria**: Tradicionais, Especiais, Combos, Extras
-- **10+ itens** detalhados com descrições e preços
-- Botão de pedido individual por item
+- **Filtros por categoria**: Tradicionais, Frango, Especiais, Combos, Extras
+- Itens detalhados com descrições e preços (faixa R$ 20–40)
+- Botão de pedido individual por item direto no WhatsApp
 - Cards animados com efeitos hover
 
-**Itens do Cardápio:**
-- Cachorrão Completo - R$ 18,90
-- Cachorrão Simples - R$ 14,90
-- Cachorrão Duplo - R$ 22,90
-- Cachorrão Bacon - R$ 22,90
-- Cachorrão Cheddar - R$ 23,90
-- Cachorrão Ovo - R$ 19,90
-- Combo Casal - R$ 44,90
-- Combo Família - R$ 79,90
-- Porção de Batata Frita - R$ 16,90
-- Refrigerante Lata - R$ 6,00
+**Destaques do Cardápio:**
+- Cachorrão Tradicional, Simples e Prensadão
+- Cachorrão de Frango (favorito do público) e variações
+- Bacon Lover, Cheddar Duplo, Da Casa
+- Combos Casal e Família
+- Porções, refrigerantes e sucos naturais
 
 ### 👨‍🍳 Sobre Nós
-- História e tradição na Rua XV de Novembro
-- Cards de diferenciais (Ingredientes Frescos, Receita Tradicional, Feito na Hora, Delivery Rápido)
+- Tradição na Rua XV de Novembro, pertinho da Praça Clève
+- Diferenciais: prensado na hora, atendimento rápido, aberto todo dia, aceita cartão, delivery/retirada, acessibilidade
 
 ### 🔥 Promoções Semanais
-- Destaque: Cachorrão Duplo + Refri
-- Combo Casal (Terça/Quarta)
-- Sexta do Bacon
-- Combo Família no Sábado
+- Destaque: Cachorrão de Frango + Refri
+- Combo Casal (Segunda e Terça)
+- Quarta do Bacon (Quarta e Quinta)
+- Combo Família (Sexta e Sábado)
 - Domingo em Família (brinde batata)
 
 ### 💬 Depoimentos
-- 6 depoimentos de clientes reais
+- 6 depoimentos inspirados em avaliações reais (RestaurantGuru, Google)
 - Sistema de 5 estrelas
-- Avatares personalizados
+- Botão direto para ver todas as avaliações no Google
 
 ### 📍 Localização
 - Mapa interativo do Google Maps (coordenadas reais: -25.3902434, -51.4625697)
-- Rua XV de Novembro, Centro, Guarapuava - PR
-- Horário completo de funcionamento
-- Botão "Como Chegar"
+- Endereço completo com CEP
+- Horário de funcionamento (todos os dias 18h–23h)
+- Botão "Como Chegar" integrado ao Google Maps
 
 ### 📞 Contato
-- WhatsApp, telefone e e-mail
-- Formulário com máscara automática de telefone
-- Links para Instagram, Facebook, TikTok
-- Integração direta com WhatsApp
+- WhatsApp, telefone e Instagram
+- Formulário que envia a mensagem pré-formatada para o WhatsApp
+- Links para Instagram, Google Maps e WhatsApp
 
 ### 🛒 Pedidos Online
 - Botão flutuante de WhatsApp (em todas as páginas)
@@ -117,33 +119,17 @@ preensadao/
     └── deploy.yml
 ```
 
-## ⚙️ Personalizações Necessárias
+## ⚙️ Personalizações
 
-Antes de colocar em produção, você precisa ajustar:
+Todos os dados de contato e cardápio já estão preenchidos com informações reais:
 
-### 📞 Telefone/WhatsApp
-Substitua `5542999999999` pelo número real em **todos os arquivos**:
-```bash
-# Buscar todas as ocorrências:
-5542999999999
-# Substituir por: SEU_NUMERO_AQUI
-```
+- **Telefone/WhatsApp:** `(42) 3623-1368` (wa.me/554236231368)
+- **Endereço:** Rua XV de Novembro, 6968 - Centro, Guarapuava - PR
+- **Horário:** Todos os dias das 18h às 23h
+- **Instagram:** @cachorraoprensadoxv_
+- **Google Maps:** coordenadas reais validadas
 
-### 📍 Endereço
-A localização já está configurada com as coordenadas reais do Google Maps. Ajuste o número/endereço específico se necessário.
-
-### 🕐 Horário de Funcionamento
-Atualize os horários em `index.html` conforme real funcionamento.
-
-### 📱 Redes Sociais
-Atualize os links em `index.html`:
-```html
-<a href="https://instagram.com/cachorraoprensado" ...>
-<a href="https://facebook.com/cachorraoprensado" ...>
-```
-
-### 💰 Preços e Itens
-Edite os preços e descrições dos itens no `index.html` (seção cardápio).
+Caso precise atualizar preço de algum item do cardápio ou outro dado, edite diretamente o `index.html` (procure pelo nome do item).
 
 ## 🌐 Publicação Online
 
@@ -178,4 +164,4 @@ Clique 5 vezes no logo do Cachorrão Prensado para ativar uma chuva de emojis de
 
 **Feito com 💛 em Guarapuava - PR**
 
-*"O cachorro-quente prensado tradicional de Guarapuava"* 🌭
+*"O cachorro-quente prensado tradicional do centro de Guarapuava"* 🌭
