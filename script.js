@@ -358,7 +358,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showEasterEgg() {
-        const emojis = ['🌭', '🍔', '🍟', '🥤', '🥓', '🧀'];
+        const emojis = ['🌭', '🧀', '🥓'];
         for (let i = 0; i < 30; i++) {
             const emoji = document.createElement('div');
             emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
@@ -400,8 +400,8 @@ document.addEventListener('DOMContentLoaded', () => {
     /* ============================================
        LOG DE INICIALIZAÇÃO
        ============================================ */
-    console.log('%c🌭 Cachorrão Prensado 🌭', 'color: #E63946; font-size: 24px; font-weight: bold;');
-    console.log('%cO cachorro-quente prensado tradicional de Guarapuava!', 'color: #F77F00; font-size: 14px;');
-    console.log('%c📍 Rua XV de Novembro, 6968 - Centro, Guarapuava - PR', 'color: #6C757D; font-size: 12px;');
+    console.log('%cCachorrão Prensado', 'color: #E63946; font-size: 24px; font-weight: bold;');
+    console.log('%cO cachorro-quente prensado tradicional de Guarapuava.', 'color: #F77F00; font-size: 14px;');
+    console.log('%cRua XV de Novembro, 6968 - Centro, Guarapuava - PR', 'color: #6C757D; font-size: 12px;');
 
 });
