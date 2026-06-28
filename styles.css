@@ -1619,3 +1619,38 @@ input, textarea, select { font-family: inherit; }
     background: var(--primary);
     color: var(--white);
 }
+
+/* ===== EXTRAS: nota do cardápio, CTA depoimentos, nota do form ===== */
+.cardapio-note {
+    text-align: center;
+    margin-top: 40px;
+    padding: 16px 24px;
+    background: var(--white);
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--accent);
+    box-shadow: var(--shadow-sm);
+    color: var(--gray-700);
+    font-size: 0.95rem;
+}
+
+.cardapio-note i {
+    color: var(--primary);
+    margin-right: 8px;
+}
+
+.depoimentos-cta {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form-note {
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--gray-500);
+    margin-top: 12px;
+}
+
+.form-note i {
+    color: var(--primary);
+    margin-right: 4px;
+}

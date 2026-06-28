@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 showFormMessage('Mensagem preparada! Redirecionando para o WhatsApp...', 'success');
 
                 setTimeout(() => {
-                    window.open(`https://wa.me/5542999999999?text=${whatsappMsg}`, '_blank');
+                    window.open(`https://wa.me/554236231368?text=${whatsappMsg}`, '_blank');
                     contatoForm.reset();
                     submitBtn.innerHTML = originalText;
                     submitBtn.disabled = false;
@@ -402,6 +402,6 @@ document.addEventListener('DOMContentLoaded', () => {
        ============================================ */
     console.log('%c🌭 Cachorrão Prensado 🌭', 'color: #E63946; font-size: 24px; font-weight: bold;');
     console.log('%cO cachorro-quente prensado tradicional de Guarapuava!', 'color: #F77F00; font-size: 14px;');
-    console.log('%c📍 Rua XV de Novembro, Guarapuava - PR', 'color: #6C757D; font-size: 12px;');
+    console.log('%c📍 Rua XV de Novembro, 6968 - Centro, Guarapuava - PR', 'color: #6C757D; font-size: 12px;');
 
 });
